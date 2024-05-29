@@ -1,0 +1,199 @@
+<style>
+  
+
+  #inclgrowthwrap {
+    max-width: 600px;
+    height: 800px;
+    font-size: .75em;
+  }
+  #inclgrowthwrap iframe {
+    margin-top: 10px;
+    height: 410px;
+  }
+  #maplegend {
+    font-family: "droid-sans", sans-serif;
+  }
+  #maplegend p {
+    line-height: 139%;
+    margin: 10px 0 12px 0;
+    max-width: 500px;
+    font-weight: 100;
+    font-family: "droid-serif", serif;
+  }
+  #mapcolors {
+    max-width: 550px;
+  }
+  #maplegend h3, #maplegend h4 {
+    font-weight: 600;
+  }
+  #maplegend h3 {
+    font-size: 1.4em;
+    margin: 0 0 8px 0;
+    font-family: "droid-serif", serif;
+    max-width: 500px;
+  }
+  #maplegend h4 {
+    margin: 0 0 6px 0;
+  }
+  .catlabel {
+    position: relative;
+    top: -4px;
+    left: 3px;
+    font-size: .95em;
+  }
+  #mapcredit {
+    font-family: "droid-sans", sans-serif;
+    margin-top: 5px;
+    font-size: .75em;
+  }
+  .catcolor {
+    opacity: .75;
+    width: 15px;
+    height: 15px;
+  }
+  .mapcategory span {
+    display: inline-block;
+  }
+  .color1 {
+   background-color: #a5aa99; 
+  }
+  .color2 {
+   background-color: #d9a400; 
+  }
+  .color3 {
+   background-color: #ff0099; 
+  }
+  .color4 {
+   background-color: #3969ab; 
+  }
+  .color5 {
+   background-color: #93befa; 
+  }
+  .color6 {
+   background-color: #fc9dd6; 
+  }
+  .color7 {
+   background-color: #ffdf7c; 
+  }
+  .maplink a {
+   color: #946e29;
+   text-decoration: underline dotted;
+   text-underline-offset: 2px;
+  }
+  .maplink a:hover {
+    text-decoration: underline solid;
+  }
+  @media screen and (min-width: 340px) {
+  
+    #inclgrowthwrap iframe {
+    margin-top: 10px;
+    height: 420px;
+  }
+  }
+  @media screen and (min-width: 480px) {
+    
+    #inclgrowthwrap {
+  font-size: .79em;
+    }
+    #inclgrowthwrap iframe {
+    margin-top: 10px;
+    height: 460px;
+  }
+    #maplegend h3 {
+    font-size: 1.5em;
+  }
+    .mapcategory {
+      margin-bottom: 1px;
+    }
+    #maplegend p {
+    margin-top: 8px;
+  }
+  #maplegend h3 {
+    font-size: 1.67em;
+    margin: 0 0 12px 0;
+  
+  }
+  @media screen and (min-width: 510px) {
+    #inclgrowthwrap {
+  font-size: .82em;
+    }
+  }
+  @media screen and (min-width: 510px) {
+    #inclgrowthwrap {
+  font-size: .8275em;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .mapcategory {
+      display: inline-block;
+      margin-right: 6px;
+    }
+  
+    #inclgrowthwrap {
+  font-size: .84em;
+    }
+    #inclgrowthwrap iframe {
+    margin-top: 10px;
+    height: 500px;
+  }
+    #maplegend h3 {
+    font-size: 1.6em;
+  }
+  
+  }
+  </style>
+  
+  <link rel="stylesheet" href="https://use.typekit.net/pja4aae.css">
+  
+  
+  
+  
+  
+  <div id="inclgrowthwrap">
+  <div id="maplegend">
+    <h3>Mondawmin's record of inclusive growth</h3>
+    <p>Out of thousands of high-poverty U.S. communities, the <span style="padding:0 0.5px 0 0.5px;border:2px solid red">Mondawmin area</span> and two others in Baltimore were among fewer than 200 where researchers found poverty fell early this century without residents being displaced. Unlike Better Waverly or Greektown, Mondawmin appeared to sustain that progress into the current decade, a follow-up analysis by researchers found.</p>
+    
+    
+    <h4>2000-15 change</h4>  
+    
+    <div id="mapcolors">
+  <div class="mapcategory">
+    <span class="catcolor color4"></span><span class="catlabel">Large decrease in poverty, no community displacement</span>
+  </div>
+  
+    <div class="mapcategory">
+  <span class="catcolor color5"></span><span class="catlabel"> Moderate decrease in poverty, no displacement </span>
+  </div>
+  
+    <div class="mapcategory">
+   <span class="catcolor color6"></span><span class="catlabel">Moderate increase in poverty</span>
+  </div>
+    
+   <div class="mapcategory"> 
+   <span class="catcolor color3"></span><span class="catlabel">Large increase in poverty</span>
+  </div>
+    
+    <div class="mapcategory">
+   <span class="catcolor color1"></span><span class="catlabel">No significant change in poverty</span>
+  </div>
+    
+    <div class="mapcategory">
+   <span class="catcolor color7"></span><span class="catlabel">Moderate increase in displacement</span>
+  </div>
+    
+    <div class="mapcategory">
+   <span class="catcolor color2"></span><span class="catlabel">Large increase in displacement</span>
+  </div>
+  </div>
+  </div>
+  
+  <iframe width="100%"  frameborder="0" src="https://baltsun.carto.com/builder/032126a4-6643-4fbf-884d-8e95ecc69e01/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  
+   <div id="mapcredit">Source: <span class="maplink"><a href="https://www.brookings.edu/articles/reducing-poverty-without-community-displacement-indicators-of-inclusive-prosperity-in-u-s-neighborhoods/" target="_blank">Brookings Institution</a></span> | Map: Steve Earley/Staff
+  </div> 
+    
+  </div>
+  
+  
+  
